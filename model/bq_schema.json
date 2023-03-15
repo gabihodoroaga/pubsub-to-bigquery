@@ -1,0 +1,22 @@
+[
+    {
+        "name": "timestamp",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "prop1",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "prop2",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

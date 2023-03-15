@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+option go_package = "../model";
+
+message Event {
+  required int64 timestamp = 1;
+  required string id = 2;
+  optional string prop1 = 3;
+  optional string prop2 = 4;
+}
+
