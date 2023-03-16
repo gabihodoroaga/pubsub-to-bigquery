@@ -23,7 +23,7 @@ def get_callback(
 
 publish_futures = []
 
-for i in range(10):
+for i in range(1000):
     data = {
         "timestamp": int(datetime.now(timezone.utc).timestamp() * 1e6),
         "id": str(uuid.uuid4()),
@@ -31,7 +31,7 @@ for i in range(10):
         "prop2": "prop2"
     }
     publish_future = publisher.publish(topic_path, json.dumps(data).encode("utf-8"))
-    publish_future.add_done_callback(get_callback(publish_future, data))
+    #publish_future.add_done_callback(get_callback(publish_future, data))
     publish_futures.append(publish_future)
 
 # Wait for all the publish futures to resolve before exiting.

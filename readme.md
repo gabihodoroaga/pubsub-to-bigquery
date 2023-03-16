@@ -69,7 +69,7 @@ Deploy on GCP
 ## TODO:
 
 - [ ] Benchmark streaming performance
-- [ ] Add counters and metrics and save them to monitoring
+- [ ] Add counters and metrics and save them to cloud monitoring
 - [ ] Add tests for Pub/Sub handler and BigQuery sink
 
 ## License
